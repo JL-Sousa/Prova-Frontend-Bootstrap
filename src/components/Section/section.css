@@ -1,0 +1,6 @@
+.container-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c757d;
+  height: 3rem;
+}
