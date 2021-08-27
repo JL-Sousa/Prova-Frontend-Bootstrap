@@ -1,0 +1,21 @@
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-nav {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav-user {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  color: #6c757d;
+}
+
+.navbar-nav  {
+  background-color: var(--bs-white);
+}

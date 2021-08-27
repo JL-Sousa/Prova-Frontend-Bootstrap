@@ -1,15 +1,16 @@
 import './App.css';
-import { Alert } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import { Header } from './components/Navbar/navbar';
+import {Routes} from './routes';
 
 
 function App(props) {
   return (
     <Container>
       <Row>
-        <Col>Bem Vindo</Col>
-        
+        <Header />
       </Row>
+      <Routes />
     </Container>
   );
 }

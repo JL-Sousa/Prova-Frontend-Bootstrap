@@ -1,0 +1,28 @@
+.container-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #6c757d;
+  height: 3rem;
+}
+
+.icon-nav-section {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+ 
+}
+
+.section-page {
+   position: absolute;
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   color: var(--bs-white);
+   margin-top: -10px;
+}
+
+.section-page p {
+  margin-top: 1.5rem;
+  text-transform: capitalize;
+  
+}
