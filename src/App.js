@@ -1,7 +1,7 @@
 import './App.css';
 import { Container, Row, Col } from 'reactstrap';
 import { Header } from './components/Navbar/navbar';
-import { Section } from './components/Section/section';
+import {Routes} from './routes';
 
 
 function App(props) {
@@ -10,9 +10,7 @@ function App(props) {
       <Row>
         <Header />
       </Row>
-      <Row>
-        <Section />
-      </Row>
+      <Routes />
     </Container>
   );
 }

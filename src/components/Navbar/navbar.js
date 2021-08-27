@@ -45,18 +45,19 @@ function Header() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-                <NavLink href="/components/">
+                <NavLink href="/">
                   <span><BsCalendar className='icon-nav' /></span>
-                  Agenda</NavLink>
+                  Agenda
+                </NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/clientes">
                   <span><BsPeople className='icon-nav' /></span>
                   Clientes
                 </NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/imoveis">
                    <span><BsBuilding className='icon-nav' /></span>
                   Imóveis</NavLink>
             </NavItem>
