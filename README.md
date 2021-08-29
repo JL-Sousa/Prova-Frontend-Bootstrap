@@ -27,4 +27,4 @@ yarn start ou npm run start
 
 ---
 
-🔥Desenvolvido por \***\*_Jonyelson Lopes_\*\***
+🔥Desenvolvido por \***\*_Jonyelson Lopes\*\***
