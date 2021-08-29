@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './navbar.css';
+import './styles.css';
 import {
   BsBuilding,
   BsPeople,
@@ -16,16 +16,10 @@ import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
-  Col,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
-  NavbarText } from 'reactstrap';
+  Col } from 'reactstrap';
 
 function Header() {
 
@@ -36,7 +30,7 @@ function Header() {
   return (
     <Container className='container-navbar'>
       <Col xs='2'>
-       AAA
+       <h1>LOGO</h1>
       </Col>
       <Col xs="8">
          <Navbar color="light" light expand="md">
