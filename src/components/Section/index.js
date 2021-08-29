@@ -1,6 +1,9 @@
 import React from 'react';
 import './styles.css';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Col, Button } from 'reactstrap';
+import { FcGoogle } from "react-icons/fc";
+
+
 
 function Section(props) {
   return (
@@ -11,7 +14,12 @@ function Section(props) {
           <p> {props.title} |</p>
         </section>
       </Col>
-      <Col xs='6'>..2</Col>
+      <Col xs='6'>
+        <Button className="button-section" size="sm">
+          <FcGoogle className='icon-nav-section' />
+          Integrar com Google
+        </Button>
+      </Col>
     </Container>
   )
 }
