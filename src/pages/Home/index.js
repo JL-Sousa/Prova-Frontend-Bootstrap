@@ -5,8 +5,7 @@ import { Section } from '../../components/Section';
 import FullCalendar from '@fullcalendar/react' // must go before plugins
 import dayGridPlugin from '@fullcalendar/daygrid';
 import interactionPlugin from "@fullcalendar/interaction";
-import { Calendar } from '@fullcalendar/core/';
-import ptBr from '@fullcalendar/core/locales/pt-br';
+
 
 import { BsCalendar } from "react-icons/bs";
 
@@ -27,8 +26,7 @@ function Home() {
           initialView="dayGridMonth"
           weekends={false}
           events={[
-            { title: 'event 1', date: '2019-04-01' },
-            { title: 'event 2', date: '2021-08-02' }
+            { title: 'visita a cliente', date: '2021-08-03' }
           ]}
           dateClick={handleDateClick}
           />

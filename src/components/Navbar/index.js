@@ -56,22 +56,22 @@ function Header() {
                   Imóveis</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/contratos">
                   <span><BsFileEarmarkText className='icon-nav' /></span>
                   Contratos</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/carreiras">
                    <span><BsBullseye className='icon-nav' /></span>
                   Carreiras</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/eventos">
                   <span><BsReverseLayoutTextSidebarReverse className='icon-nav' /></span>
                   Eventos</NavLink>
             </NavItem>
             <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
+                <NavLink href="/corretor">
                   <span>< BsFileEarmarkDiff className='icon-nav' /></span>
                   Indique um corretor</NavLink>
             </NavItem>

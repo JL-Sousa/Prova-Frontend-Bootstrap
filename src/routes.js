@@ -16,6 +16,18 @@ const Routes = () => {
         <Route exact path='/imoveis'>
           <Imoveis />
         </Route>
+        <Route exact path='/contratos'>
+          <Imoveis />
+        </Route>
+        <Route exact path='/carreiras'>
+          <Imoveis />
+        </Route>
+        <Route exact path='/eventos'>
+          <Imoveis />
+        </Route>
+        <Route exact path='/corretor'>
+          <Imoveis />
+        </Route>
       </Switch>
     </BrowserRouter>
   )
